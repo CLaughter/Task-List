@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+.container {
+  margin-top: 25px;
+}
+
+.card-content,
+.card-action {
+  margin: 15px;
+}
