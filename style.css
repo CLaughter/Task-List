@@ -10,3 +10,11 @@ body {
 .card-action {
   margin: 15px;
 }
+
+.card {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.clear-tasks {
+  color: rgb(113, 175, 255);
+}

@@ -23,7 +23,7 @@
           <div id="main" class="card">
             <div class="card-content">
               <span class="d-flex justify-content-center" class="card-title">
-                Task List
+                <h1>Task List</h1>
               </span>
               <hr />
               <div class="row">
@@ -37,7 +37,7 @@
                         type="text"
                         name="task"
                         id="task"
-                        placeholder="New Task"
+                        placeholder="Enter New Task"
                       />
                       <label for="task"></label>
                     </div>
@@ -45,12 +45,28 @@
                     <span class="d-flex justify-content-center">
                       <input
                         type="submit"
-                        value="Add Task"
+                        value="Add It"
                         class="btn btn-primary"
                       />
                     </span>
                   </form>
                 </div>
+              </div>
+              <hr />
+
+              <div class="card-action">
+                <div class="input-field col s12">
+                  <h5 id="task-title">My Tasks</h5>
+                  <input
+                    type="text"
+                    name="filter"
+                    id="filter"
+                    placeholder="Filter Tasks"
+                  />
+                  <label for="filter"></label>
+                </div>
+                <ul class="collection"></ul>
+                <a href="#" class="clear-tasks btn black">Clear Tasks</a>
               </div>
             </div>
           </div>
