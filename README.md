@@ -1,6 +1,6 @@
 # task-list
 
-### Application allows user to input a new task or select from a previous one (in local storage) and add it to an appended list.
+### This application allows user to input a new task and add it to an appended list that is persisted to local storage with state.
 
 ### The user can delete individual task items or clear the entire list and will be prompted to confirm before deletion.
 
